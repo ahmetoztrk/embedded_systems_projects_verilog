@@ -1,0 +1,12 @@
+-d C:\Users\ahmet\OneDrive\Belgeler\led_light_controller\impl\gwsynthesis\led_light_controller.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst C:\Users\ahmet\OneDrive\Belgeler\led_light_controller\src\led_light_controller.cst
+-cfg C:\Users\ahmet\OneDrive\Belgeler\led_light_controller\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
