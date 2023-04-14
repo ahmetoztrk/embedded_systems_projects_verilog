@@ -1,0 +1,12 @@
+-d C:\Users\ahmet\OneDrive\Belgeler\led_light_counter\impl\gwsynthesis\led_light_counter.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst C:\Users\ahmet\OneDrive\Belgeler\led_light_counter\src\led_light_counter.cst
+-cfg C:\Users\ahmet\OneDrive\Belgeler\led_light_counter\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
