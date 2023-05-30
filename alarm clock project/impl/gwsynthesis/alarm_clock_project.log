@@ -1,0 +1,174 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v'
+WARN  (EX2664) : Variable 'count' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":30)
+WARN  (EX2664) : Variable 'seconds' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":33)
+WARN  (EX2664) : Variable 'minutes' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":36)
+WARN  (EX2664) : Variable 'hours' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":38)
+WARN  (EX2664) : Variable 'hours' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":40)
+WARN  (EX2664) : Variable 'minutes' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":43)
+WARN  (EX2664) : Variable 'seconds' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":46)
+WARN  (EX2664) : Variable 'count' is used before it is assigned in an always_comb or always @* block, synthesis - simulation differences may occur("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+Compiling module 'AlarmClock'("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":1)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":40)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":43)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":46)
+WARN  (EX3791) : Expression size 27 truncated to fit in target size 26("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":73)
+WARN  (EX2420) : Latch inferred for net 'timer_count[3]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":81)
+NOTE  (EX0101) : Current top module is "AlarmClock"
+WARN  (AG0100) : Find logical loop signal : "n16_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":28)
+WARN  (AG0100) : Find logical loop signal : "n139_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_0_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n16_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":28)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n139_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_0_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n138_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_1_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n137_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_2_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n136_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_3_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n135_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_4_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n134_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_5_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n133_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_6_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n132_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_7_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n131_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_8_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n130_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_9_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n129_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_10_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n128_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_11_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n127_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_12_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n126_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_13_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n125_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_14_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n124_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_15_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n123_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_16_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n122_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_17_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n121_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_18_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n120_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_19_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n119_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_20_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n118_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_21_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n117_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_22_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n116_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_23_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n115_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_24_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "n114_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "count_25_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0100) : Find logical loop signal : "add_68_s"("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":49)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input clock is unused("C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\src\clock.v":2)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\impl\gwsynthesis\alarm_clock_project.vg" completed
+[100%] Generate report file "C:\Users\ahmet\OneDrive\Belgeler\alarm_clock_project\impl\gwsynthesis\alarm_clock_project_syn.rpt.html" completed
+GowinSynthesis finish
